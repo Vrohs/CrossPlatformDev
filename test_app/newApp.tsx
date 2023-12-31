@@ -15,13 +15,12 @@ function newApp(): JSX.Element{
 
     return (
 
-        <SafeAreaView> 
             
             <View style = {Styles.container}>
 
                 <Text style = { isDarkMode ? Styles.lightText : Styles.darkText }> Hello World! </Text>
             </View> 
-    </SafeAreaView>
+    
     )
 }
 
@@ -29,8 +28,8 @@ const Styles = StyleSheet.create({
     
     container: {
 
-        flex: 0,
-        alignItems: 'flex-start',
+        flex: 1,
+        alignItems: 'center',
         justifyContent: 'center'
     },
 
