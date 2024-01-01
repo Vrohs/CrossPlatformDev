@@ -3,7 +3,7 @@
  */
 
 import {AppRegistry} from 'react-native';
-import newApp from './newApp';
+import DynamicTheming from './dynamicThemes';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => newApp);
+AppRegistry.registerComponent(appName, () => DynamicTheming);
