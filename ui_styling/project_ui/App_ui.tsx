@@ -1,5 +1,5 @@
 import React from "react";
-import CardsLayout from "./components/cardsLayout";
+import CardsLayout from "./components/CardsLayout";
 import {
 
     View,
@@ -14,15 +14,20 @@ import {
 function App_ui(): JSX.Element{
 
     return(
-        
-        <SafeAreaView>
 
-        <ScrollView>
-            
-            <CardsLayout />
-            <Text> Hello World! </Text>
-        </ScrollView>
-        </SafeAreaView>
+        <>
+        
+        <CardsLayout />
+       
+
+          <SafeAreaView>
+
+              <ScrollView>
+
+
+              </ScrollView>
+          </SafeAreaView>
+        </>
     )
 }
 
